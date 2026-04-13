@@ -21,17 +21,17 @@ simulated and tested using ModelSim Intel FPGA Edition.
 ---
 
 ## 🧠 Project Structure
-calculator_16bit/
-├── adder.vhd        → 16-bit adder with carry
-├── subtractor.vhd   → 16-bit subtractor with borrow
-├── multiplier.vhd   → 16-bit multiplier (32-bit output)
-├── divider.vhd      → 16-bit divider with remainder + div by zero protection
-├── alu.vhd          → Main ALU connecting all components
-├── testbench.vhd    → Testbench simulating all 9 test cases
-├── architecture.md  → Block diagram and signal flow
-└── waveform.png     → Simulation results from ModelSim
-## 📊 Simulation Results
-![Waveform](waveform.png)
+
+| File | Description |
+|------|-------------|
+| `adder.vhd` | 16-bit adder with carry |
+| `subtractor.vhd` | 16-bit subtractor with borrow |
+| `multiplier.vhd` | 16-bit multiplier (32-bit output) |
+| `divider.vhd` | 16-bit divider with remainder + div by zero protection |
+| `alu.vhd` | Main ALU connecting all components |
+| `testbench.vhd` | Testbench simulating all 9 test cases |
+| `architecture.md` | Block diagram and signal flow |
+| `waveform.png` | Simulation results from ModelSim |
 
 ## 🔌 Inputs & Outputs
 
