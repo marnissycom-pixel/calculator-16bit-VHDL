@@ -1,0 +1,269 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eadder
+Z0 w1776108070
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z4 dC:/Users/Shehine/Desktop/16bit calc
+Z5 8C:/Users/Shehine/Desktop/16bit calc/adder.vhd
+Z6 FC:/Users/Shehine/Desktop/16bit calc/adder.vhd
+l0
+L5 1
+V:RBHIA;<9Hm09_amG8RTF0
+!s100 :b6]_2e1i[0IHOiNDd37<2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1776108578
+!i10b 1
+Z9 !s108 1776108578.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/adder.vhd|
+Z11 !s107 C:/Users/Shehine/Desktop/16bit calc/adder.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 5 adder 0 22 :RBHIA;<9Hm09_amG8RTF0
+!i122 3
+l16
+Z14 L14 7
+VJk^U6Eb;RGEL`4Y2GLYdF0
+!s100 26C>cm=?^i>dnlF^ZPFa`3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z15 w1776108269
+R1
+R2
+R3
+!i122 7
+R4
+Z16 8C:/Users/Shehine/Desktop/16bit calc/alu.vhd
+Z17 FC:/Users/Shehine/Desktop/16bit calc/alu.vhd
+l0
+L5 1
+V<i3jM;NXM4OWTS3zJ_84F3
+!s100 <ATH@`n]YcAF?6KOoY=MR2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/alu.vhd|
+Z19 !s107 C:/Users/Shehine/Desktop/16bit calc/alu.vhd|
+!i113 1
+R12
+R13
+Astructural
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 <i3jM;NXM4OWTS3zJ_84F3
+!i122 7
+l52
+L17 74
+V5HRMU86dOdP5UPD5=5dF<0
+!s100 Z:]1VlSXH2EVYZ7N@>4<P0
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Edivider
+Z20 w1776108573
+R1
+R2
+R3
+!i122 6
+R4
+Z21 8C:/Users/Shehine/Desktop/16bit calc/divider.vhd
+Z22 FC:/Users/Shehine/Desktop/16bit calc/divider.vhd
+l0
+L5 1
+VW?`M1mdz@QoP8jfM6@B;l2
+!s100 feAW4AF4OH:]01Xn:z<090
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/divider.vhd|
+Z24 !s107 C:/Users/Shehine/Desktop/16bit calc/divider.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 divider 0 22 W?`M1mdz@QoP8jfM6@B;l2
+!i122 6
+l16
+L15 15
+VF>[KIZRDU3WN=5:VRYiQ@2
+!s100 j=?dlX8iD8iR3^d:M1ejW3
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Emultiplier
+Z25 w1776108558
+R1
+R2
+R3
+!i122 5
+R4
+Z26 8C:/Users/Shehine/Desktop/16bit calc/multiplier.vhd
+Z27 FC:/Users/Shehine/Desktop/16bit calc/multiplier.vhd
+l0
+L5 1
+VXSOZ3EgS4SeB_oKjH^oPL1
+!s100 ag:JSXXMk9k1B@XK0k<dc1
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/multiplier.vhd|
+Z29 !s107 C:/Users/Shehine/Desktop/16bit calc/multiplier.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 multiplier 0 22 XSOZ3EgS4SeB_oKjH^oPL1
+!i122 5
+l14
+L13 4
+VEnd1l6`]0MPj63imJ@GcA2
+!s100 C2C=agTbI^8:o?PLXN>zB0
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Esubtractor
+Z30 w1776108547
+R1
+R2
+R3
+!i122 4
+R4
+Z31 8C:/Users/Shehine/Desktop/16bit calc/substractor.vhd
+Z32 FC:/Users/Shehine/Desktop/16bit calc/substractor.vhd
+l0
+L5 1
+V6G6^A]<;7[GDPB7@V7BUS0
+!s100 8Bn>VKK<hbGbGh7obzb3>0
+R7
+32
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/substractor.vhd|
+Z34 !s107 C:/Users/Shehine/Desktop/16bit calc/substractor.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 subtractor 0 22 6G6^A]<;7[GDPB7@V7BUS0
+!i122 4
+l16
+R14
+VzdDfoKmg1DD`@XB6HGHTT2
+!s100 ;Q]`l1dzc]]=^h]TAo[UZ0
+R7
+32
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Etestbench
+Z35 w1776108415
+R1
+R2
+R3
+!i122 8
+R4
+Z36 8C:/Users/Shehine/Desktop/16bit calc/testbench.vhd
+Z37 FC:/Users/Shehine/Desktop/16bit calc/testbench.vhd
+l0
+L5 1
+VW[If4f_gSFf:[e7H;BY<j0
+!s100 kO=eN8Z<;NKUR<z22KiHB3
+R7
+32
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Shehine/Desktop/16bit calc/testbench.vhd|
+Z39 !s107 C:/Users/Shehine/Desktop/16bit calc/testbench.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z40 DEx4 work 9 testbench 0 22 W[If4f_gSFf:[e7H;BY<j0
+!i122 8
+l26
+Z41 L8 58
+Z42 V]T40UW=`TDeUJh3RJM?ZY2
+Z43 !s100 c^aID]DfeKX=^86IW3YRm0
+R7
+32
+R8
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
